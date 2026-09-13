@@ -99,5 +99,3 @@ Not a purely commercial path — the research side shapes how I build.
 [LinkedIn](https://www.linkedin.com/in/yerkezhan-tleukulova-863b9a252/) &nbsp;·&nbsp;
 [Portfolio](«REPLACE_ME_PORTFOLIO_URL») &nbsp;·&nbsp;
 [@av1cu](https://github.com/av1cu)
-s
-<sub>· open to research collaborations and full-stack / AI work</sub>
