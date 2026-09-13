@@ -66,7 +66,7 @@ servers underneath.
 | **Infrastructure** | Docker · Nginx · Linux · CI/CD           |
 | **Data / AI**      | Python · Machine Learning · LLMs · RAG   |
 
----
+## `
 
 ### Background
 
@@ -95,9 +95,9 @@ Not a purely commercial path — the research side shapes how I build.
 
 ### Contact
 
-[«Email»](mailto:«erkezhan544@gmail.com») &nbsp;·&nbsp;
-[LinkedIn](«https://www.linkedin.com/in/yerkezhan-tleukulova-863b9a252/») &nbsp;·&nbsp;
+[Email](mailto:«erkezhan544@gmail.com») &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/yerkezhan-tleukulova-863b9a252/) &nbsp;·&nbsp;
 [Portfolio](«REPLACE_ME_PORTFOLIO_URL») &nbsp;·&nbsp;
 [@av1cu](https://github.com/av1cu)
-
+s
 <sub>· open to research collaborations and full-stack / AI work</sub>
