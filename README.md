@@ -12,8 +12,7 @@
 
 <img src="assets/pixel-desk.svg" alt="Pixel-art workstation: code appearing on a monitor, a steaming mug, a server rack with blinking lights." width="420">
 
-Almaty, Kazakhstan. I build web applications, backend services and practical AI/data systems —
-and I take them all the way to a running deployment rather than stopping at a prototype.
+I build web applications, backend services and practical AI/data systems.
 
 ---
 
@@ -35,28 +34,21 @@ servers underneath.
 
 ---
 
-### Selected projects
+<!--
+### Selected projects -->
 
 <!-- «REPLACE_ME» — fill in the two URLs on each line. Delete the ones you don't want public.
      Format:  **Name** — one line of what it does.
               `tech` `tech` · [Code](url) · [Live](url)                                    -->
 
-**MamaCare** — Healthcare assistant with a retrieval-backed chat interface and its own QA /
-evaluation framework.
-`FastAPI` `Next.js` `RAG` `LLM` · [Code](«REPLACE_ME_GITHUB_URL») · [Live](«REPLACE_ME_LIVE_URL»)
-
-**BFHI Smart Monitor** — Compliance tracking platform for health facilities, with an LMS
-module and analytics dashboards.
-`FastAPI` `Next.js` `PostgreSQL` `Docker` · [Code](«REPLACE_ME_GITHUB_URL») · [Live](«REPLACE_ME_LIVE_URL»)
-
-**GreenTech Horizons** — Trilingual eLearning platform built for an EU-funded programme
+<!-- **GreenTech Horizons** — Trilingual eLearning platform built for an EU-funded programme
 (grant №101177203).
 `Next.js` `React` `i18n` · [Code](«REPLACE_ME_GITHUB_URL») · [Live](«REPLACE_ME_LIVE_URL»)
 
 **«REPLACE_ME_PROJECT_NAME»** — «REPLACE_ME_ONE_LINE_DESCRIPTION»
 `«tech»` `«tech»` · [Code](«REPLACE_ME_GITHUB_URL») · [Live](«REPLACE_ME_LIVE_URL»)
 
----
+--- -->
 
 ### Currently
 
@@ -113,7 +105,7 @@ Not a purely commercial path — the research side shapes how I build.
 
 - **Al-Farabi Kazakh National University** — Data Science
 - **Vilnius Tech** — Erasmus+ academic exchange
-- **China** — international internship
+- **Tianjin Normal University** — international internship
 - Research and AI work in applied health-tech projects
 
 ---
@@ -134,9 +126,7 @@ Not a purely commercial path — the research side shapes how I build.
 
 ### Contact
 
-[«REPLACE_ME_EMAIL»](mailto:«REPLACE_ME_EMAIL») &nbsp;·&nbsp;
-[LinkedIn](«REPLACE_ME_LINKEDIN_URL») &nbsp;·&nbsp;
+[Email](mailto:«erkezhan544@gmail.com») &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/yerkezhan-tleukulova-863b9a252/) &nbsp;·&nbsp;
 [Portfolio](«REPLACE_ME_PORTFOLIO_URL») &nbsp;·&nbsp;
 [@av1cu](https://github.com/av1cu)
-
-<sub>Almaty, Kazakhstan · open to research collaborations and full-stack / AI work</sub>
