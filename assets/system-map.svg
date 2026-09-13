@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-labelledby="t d">
+  <title id="t">How I build — system map</title>
+  <desc id="d">Data flows into an AI layer, which feeds a pipeline of Frontend, Backend and Infrastructure.</desc>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+    .lbl  { font-size: 13.5px; font-weight: 600; fill: #e6edf3; letter-spacing: 0.4px; }
+    .sub  { font-size: 10.5px; fill: #768390; letter-spacing: 0.3px; }
+    .tag  { font-size: 11px; fill: #6e7681; letter-spacing: 1.4px; }
+    .box  { fill: #11161d; stroke: #30363d; }
+    .wire { stroke: #30363d; stroke-width: 1.5; fill: none; }
+    .flow { stroke: #58a6ff; stroke-width: 1.5; fill: none; stroke-dasharray: 4 10; opacity: .9; }
+    @media (prefers-reduced-motion: no-preference) {
+      .flow { animation: dash 1.8s linear infinite; }
+    }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+  </style>
+
+  <defs>
+    <marker id="a" viewBox="0 0 8 8" refX="6.5" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#484f58"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="879" height="319" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="26" class="mono tag">SYSTEM MAP</text>
+  <line x1="24" y1="36" x2="856" y2="36" stroke="#21262d"/>
+
+  <!-- vertical spine: DATA -> AI -> BACKEND -->
+  <path class="wire" d="M440 106 L440 128" marker-end="url(#a)"/>
+  <path class="flow" d="M440 106 L440 126"/>
+  <path class="wire" d="M440 190 L440 212" marker-end="url(#a)"/>
+  <path class="flow" d="M440 190 L440 210"/>
+
+  <!-- horizontal pipeline wires -->
+  <path class="wire" d="M266 247 L334 247" marker-end="url(#a)"/>
+  <path class="flow" d="M266 247 L332 247"/>
+  <path class="wire" d="M546 247 L614 247" marker-end="url(#a)"/>
+  <path class="flow" d="M546 247 L612 247"/>
+
+  <!-- DATA -->
+  <rect class="box" x="340.5" y="52.5" width="199" height="53" rx="7"/>
+  <text x="360" y="76" class="sans lbl">DATA</text>
+  <text x="360" y="93" class="mono sub">datasets &#183; pipelines &#183; retrieval</text>
+
+  <!-- AI -->
+  <rect class="box" x="340.5" y="136.5" width="199" height="53" rx="7"/>
+  <rect x="340.5" y="136.5" width="3" height="53" rx="1.5" fill="#58a6ff"/>
+  <text x="360" y="160" class="sans lbl">AI LAYER</text>
+  <text x="360" y="177" class="mono sub">ML models &#183; LLM &#183; RAG</text>
+
+  <!-- FRONTEND -->
+  <rect class="box" x="60.5" y="216.5" width="205" height="61" rx="7"/>
+  <text x="80" y="242" class="sans lbl">FRONTEND</text>
+  <text x="80" y="261" class="mono sub">Next.js &#183; React Native &#183; Flutter</text>
+
+  <!-- BACKEND -->
+  <rect class="box" x="340.5" y="216.5" width="205" height="61" rx="7"/>
+  <text x="360" y="242" class="sans lbl">BACKEND</text>
+  <text x="360" y="261" class="mono sub">FastAPI &#183; Node.js &#183; PostgreSQL</text>
+
+  <!-- INFRASTRUCTURE -->
+  <rect class="box" x="620.5" y="216.5" width="199" height="61" rx="7"/>
+  <text x="640" y="242" class="sans lbl">INFRASTRUCTURE</text>
+  <text x="640" y="261" class="mono sub">Docker &#183; Nginx &#183; CI/CD &#183; Linux</text>
+
+  <text x="856" y="302" class="mono tag" text-anchor="end">DESIGN &#8594; DEPLOY</text>
+</svg>
